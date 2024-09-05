@@ -24,7 +24,9 @@ int main()
 	cout << " ol is empty: " << ol.empty() << endl;
 
 	cout << " ol size = " << ol.size() << endl;
-	//cout << (&ol) << endl;
-
+	cout << ol.toString() << endl;
+	ol.remove();
+	cout << "after remove the last item ol size = " << ol.size() << endl;
+	cout << ol.toString() << endl;
 	return 0;
 }

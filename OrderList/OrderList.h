@@ -34,6 +34,8 @@ public:
 	bool empty();
 	int size();
 	T get(int i);		// get the ith item in OrderList
+	void remove();		//default remove the last item
+	void remove(int t);	
 	string toString();
 
 
@@ -118,6 +120,24 @@ template<class T>
 inline T OrderList<T>::get(int i)
 {
 	return items[i-1];
+}
+
+template<class T>
+inline void OrderList<T>::remove()
+{
+	items[size_ - 1] = 0;
+	size_--;
+}
+
+template<class T>
+inline void OrderList<T>::remove(int t)
+{
+	for (int i = t-1; i < size; i++)
+	{
+		//a[i] = a[i + 1];   a mistake.remember using the correct member in the class
+		items[i] = items[i + 1];
+	}
+	size_--;
 }
 
 template<class T>
