@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OrderList\OrderList.h" />
+    <ClInclude Include="LinearList\CLList.h" />
+    <ClInclude Include="LinearList\LinearList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OrderList\main.cpp" />
+    <ClCompile Include="homework\course2_orderedList\radixSort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

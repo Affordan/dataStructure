@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OrderList\OrderList.h">
+    <ClInclude Include="LinearList\LinearList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearList\CLList.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OrderList\main.cpp">
+    <ClCompile Include="homework\course2_orderedList\radixSort.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
